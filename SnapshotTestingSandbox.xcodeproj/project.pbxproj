@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		B511EA7224B8CEBA00EE22AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B511EA7024B8CEBA00EE22AC /* LaunchScreen.storyboard */; };
 		B511EA7D24B8CEBA00EE22AC /* SnapshotTestingSandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511EA7C24B8CEBA00EE22AC /* SnapshotTestingSandboxTests.swift */; };
 		B511EA8824B8CEBA00EE22AC /* SnapshotTestingSandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511EA8724B8CEBA00EE22AC /* SnapshotTestingSandboxUITests.swift */; };
+		B511EA9624B8EB0800EE22AC /* SnapshotTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511EA9524B8EB0800EE22AC /* SnapshotTestCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		B511EA8324B8CEBA00EE22AC /* SnapshotTestingSandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotTestingSandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B511EA8724B8CEBA00EE22AC /* SnapshotTestingSandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestingSandboxUITests.swift; sourceTree = "<group>"; };
 		B511EA8924B8CEBA00EE22AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B511EA9524B8EB0800EE22AC /* SnapshotTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestCase.swift; sourceTree = "<group>"; };
 		C67B94EC726B91F29F413456 /* Pods-SnapshotTestingSandboxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapshotTestingSandboxTests.debug.xcconfig"; path = "Target Support Files/Pods-SnapshotTestingSandboxTests/Pods-SnapshotTestingSandboxTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +85,6 @@
 				C67B94EC726B91F29F413456 /* Pods-SnapshotTestingSandboxTests.debug.xcconfig */,
 				3B5864E625766CAFDD03356C /* Pods-SnapshotTestingSandboxTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -134,6 +135,7 @@
 			children = (
 				B511EA7C24B8CEBA00EE22AC /* SnapshotTestingSandboxTests.swift */,
 				B511EA7E24B8CEBA00EE22AC /* Info.plist */,
+				B511EA9524B8EB0800EE22AC /* SnapshotTestCase.swift */,
 			);
 			path = SnapshotTestingSandboxTests;
 			sourceTree = "<group>";
@@ -330,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B511EA7D24B8CEBA00EE22AC /* SnapshotTestingSandboxTests.swift in Sources */,
+				B511EA9624B8EB0800EE22AC /* SnapshotTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
